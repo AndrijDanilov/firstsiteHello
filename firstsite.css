@@ -1,0 +1,79 @@
+.grid-container{
+    display : grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 20px;
+
+}
+.item1{
+    grid-column: 1;
+    grid-row: 1/span 3;
+    text-align: center;
+
+}
+.grid-container2{
+    display : grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 10px;
+
+}
+.grid-container3{
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 300px;
+
+}
+.leftbutton1{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.leftbutton2{
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.leftbutton3{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.leftbutton4{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.leftbutton5{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 200px;
+}
+.Post{
+
+}
+.Header{
+
+}
+.PlaceforPosts
+{
+    border: 3px solid #73AD21;
+}
+.right1button
+{
+    background-color: black;
+}
+.right2button
+{
+    width: 100px;
+}
